@@ -16,7 +16,7 @@ sudo pip3 install humanfriendly
 sudo pip3 install asyncio
 sudo pip3 install humanize
 sudo pip3 install hyper
-sudo apt install speedtest-cli
+sudo apt install speedtest-cli -y
 sudo pip3 install twder
 sudo pip3 install httplib2
 sudo pip3 install python-axolotl-curve25519
