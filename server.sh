@@ -1,6 +1,9 @@
 sudo echo root:yuan5201314 |sudo chpasswd root
 sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
 sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
+sudo apt update -y
+sudo install python3 -y
+sudo install python3-pip -y
 sudo pip3 install rsa
 sudo pip3 install thrift==0.11.0
 sudo pip3 install requests
